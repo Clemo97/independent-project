@@ -73,6 +73,7 @@ h2 {
 
 h1 {
   font-size: 6rem;
+  color: blueviolet;
 }
 
 h2 {
@@ -130,4 +131,38 @@ img {
 
 .nav-list a:hover {
   background: var(--main-blue);
+}
+
+/* Welcome section */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--main-red);
+}
+
+/* Projects section */
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
 }
