@@ -18,5 +18,5 @@ HTML, CSS & Bootstrap.
 Feel free to edit the code to your liking.
 ### License
 *MIT LICENSE*
-Copyright (c) {year} **Clement Lumumba**
+Copyright (c) 2022 **Clement Lumumba**
   
